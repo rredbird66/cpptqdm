@@ -6,6 +6,7 @@ int main()
 {
 
     tqdm bar;
+    bar.set_label("Example Bar");
 
     for(int i = 0; i < 100; ++i)
     {
